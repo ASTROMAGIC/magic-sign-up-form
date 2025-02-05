@@ -6,6 +6,66 @@
     <title>Magic Sign Up Form</title>
 </head>
 <body>
-    
+        <section id="image-sidebar">
+            <div id="logo-container">
+                <img src="assets/odin symbol.png" alt="Odin Project Logo" id="logo">
+                <h2>ODIN</h2>
+            </div>
+
+            <p>
+                Photo by 
+                <a href="https://yugioh.fandom.com/wiki/Card_Artworks:Dark_Magician" target="_blank">Kazuki Takahashi</a>
+                <a href="https://yugioh.fandom.com/wiki/Card_Artworks:Dark_Magician?file=DarkMagician-TF05-JP-VG.png"></a>
+            </p>
+        </section>
+
+
+        <main>
+            <div id="form-description">
+                <p>This is not a real online service! This website was made as a part of the Odin Project Curriculum! Sign up<i>now</i> to get started.</p>
+            </div>
+
+            <form action="">
+                <h3>Let's begin.</h3>
+                <div id="label-input-container">
+                    <div class="container">
+                        <div class="sub-container">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+
+                        <div class="sub-container">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="sub-container">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="sub-container">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{10}" required title="Please enter a 10-digit phone number without spaces or special characters.">
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="sub-container">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="sub-container">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="create-account">Create Account</button>
+            </form>
+
+            <p>Already have an account? <a href="index.html" id="login">Log in</a></p>
+        </main>
 </body>
 </html>
