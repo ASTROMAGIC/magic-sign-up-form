@@ -31,15 +31,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
-    width: 100px;
-    background-color: none;
-    opacity: 70%;
-    height: 30%;
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 65%;
+    height: 13%;
 }
 
 #logo {
-    width: 50%;
+    width: 20%;
 }
 
 #logo-container > h2 {
